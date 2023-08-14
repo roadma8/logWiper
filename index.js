@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const wipeLogs = (inputFile, outpuFile) => {
+const wipeLogs = (inputFile) => {
   try {
     const data = fs.readFileSync(inputFile, "utf-8");
     const lines = data.split("\n");
